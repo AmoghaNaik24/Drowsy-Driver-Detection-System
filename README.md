@@ -2,14 +2,17 @@ Built a Drowsy Driver Detection System using computer vision to identify signs o
 
 
 Tech Stack
-Python
-OpenCV
-Dlib(face landmark detection)
-CNN model / Eye Aspect Ratio (EAR) logic
+
+Python,
+OpenCV,
+Dlib(face landmark detection),
+CNN model / Eye Aspect Ratio (EAR) logic,
 Alerts: Buzzer 
 
-How It Works
+Working:
+
 A camera continuously captures the driver's face.
 The model detects facial landmarks (eyes, mouth).
 If drowsiness persists for a threshold duration, the system triggers an alarm.
+
 
